@@ -7,16 +7,14 @@
 </template>
 
 
-
 <script lang="ts">
-import { DefineComponent, defineComponent } from 'vue';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
     name: 'BarraLateral'
 })
 
 </script>
-
 
 
 <style scoped>
