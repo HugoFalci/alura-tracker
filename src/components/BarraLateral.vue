@@ -1,9 +1,9 @@
 <template>
-    <header>
-        <h1>
-            <img src="../assets/logo.png" alt="" class="logo">
-        </h1>
-    </header>
+  <header>
+      <h1>
+          <img src="../assets/imobia_contor.png" alt="" class="logo">
+      </h1>
+  </header>
 </template>
 
 
@@ -11,28 +11,27 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-    name: 'BarraLateral'
+  name: 'BarraLateral'
 })
-
 </script>
 
 
 <style scoped>
 header {
-  padding: 1rem;
-  background: #F0F0F0;
-  height: 25vw;
+  background: #202123;
+  width: 100%;
   height: 100vh;
-  display: inline-block;
 }
+
 @media only screen and (max-width: 768px) {
   header {
     padding: 2.5rem;
     height: auto;
   }
 }
-.logo{
-    width: 50px;
-    height: auto;
+
+.logo {
+  width: 90%;
+  transform: translateY(-20%);
 }
 </style>
