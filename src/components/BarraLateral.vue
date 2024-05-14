@@ -15,12 +15,12 @@ export default defineComponent({
 })
 
 </script>
-
+ 
 
 <style scoped>
 header {
   padding: 1rem;
-  background: #F0F0F0;
+  background: black;
   height: 25vw;
   height: 100vh;
   display: inline-block;
